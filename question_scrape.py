@@ -14,7 +14,7 @@ all_seasons = "listseasons.php"
 season_id_start = 47
 season_id_without_base_start = 22
 episode_id_start = 46
-feildnames = ['category', 'value', 'clues', 'answer']
+fieldnames = ['category', 'value', 'clues', 'answer']
 episodes_already_checked = []
 
 
@@ -69,7 +69,7 @@ def get_clues(link):
     with open(os.path.join(clue_dir, str(link[episode_id_start:]) + '.csv'),
               'w', encoding='utf-8') as clue_csv_file:
         clue_csv_writer = csv.writer(clue_csv_file, quoting=csv.QUOTE_ALL)
-        clue_csv_writer.writerow(feildnames)
+        clue_csv_writer.writerow(fieldnames)
 
         for game_round in content.findAll('table', 'round'):
             categories = [i.text for i in game_round.findAll('td', class_='category_name')]
