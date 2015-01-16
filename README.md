@@ -1,5 +1,5 @@
 # jArchive_Scrape
-This program is a webscraper that produces CVS files of clues and answers from Jeopardy!
+This program is a webscraper that produces CVS files of clues and answers from Jeopardy! from the jArchive website.
 
 The goal of this program create easy to use resource of Jeopardy! clues and answers.
 
