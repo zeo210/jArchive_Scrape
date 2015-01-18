@@ -27,7 +27,7 @@ for key, value in sorted(categories.items(), key=lambda x: (-x[1], x[0])):
 
 csv_list = os.listdir(clue_dir)
 with open(os.path.join(base_dir, 'clues.csv'),
-          'w', encoding='utf-8') as clue_csv_file:
+          'w', encoding='utf-8', newline='') as clue_csv_file:
     clue_csv_writer = csv.writer(clue_csv_file, quoting=csv.QUOTE_ALL)
     clue_csv_writer.writerow(fieldnames)
 

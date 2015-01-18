@@ -67,7 +67,7 @@ def get_clues(link):
     print('start: ' + link[episode_id_start:])
 
     with open(os.path.join(clue_dir, str(link[episode_id_start:]) + '.csv'),
-              'w', encoding='utf-8') as clue_csv_file:
+              'w', encoding='utf-8', newline='') as clue_csv_file:
         clue_csv_writer = csv.writer(clue_csv_file, quoting=csv.QUOTE_ALL)
         clue_csv_writer.writerow(fieldnames)
 
