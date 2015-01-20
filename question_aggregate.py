@@ -25,9 +25,7 @@ for csv_file_name in csv_list:
                 else:
                     categories[row[0]] += 1
 for key, value in sorted(categories.items(), key=lambda x: (-x[1], x[0])):
-    if value < 3:
-        categories.pop(key)
-    elif clues[key] < 30:
+    if value < 3 or clues[key] < 30:
         categories.pop(key)
     else:
         print("{}: {} | {}".format(key, value, clues[key]))
