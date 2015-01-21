@@ -29,16 +29,16 @@
 "2062","THE PLANETS","300","A 25-year-long telescope search for it ended with its discovery in 1930","Pluto"
 "2062","THE PLANETS","400","Photos published in June 1999 show its largest moon, Titan, may have liquid seas","Saturn"
 "2062","THE PLANETS","500","Interplanetary distances are measured in AUs, which are these","astronomical units"
-"2101","OSCAR, GRAMMY OR BOTH","100","Cher","Both"
+2101,"OSCAR, GRAMMY OR BOTH",100,Cher,both
 "2101","OSCAR, GRAMMY OR BOTH","200","Meryl Streep","Oscar"
 "2101","OSCAR, GRAMMY OR BOTH","300","Madonna","Grammy"
-"2101","OSCAR, GRAMMY OR BOTH","400","Rita Moreno","Both"
-"2101","OSCAR, GRAMMY OR BOTH","500","Shirley Jones","Oscar (for ""Elmer Gantry"")"
+2101,"OSCAR, GRAMMY OR BOTH",400,"Rita Moreno",both
+2101,"OSCAR, GRAMMY OR BOTH",500,"Shirley Jones",Oscar
 "2126","WHICH TIME ZONE?","200","Vancouver, British Columbia","Pacific"
 "2126","WHICH TIME ZONE?","400","Omaha, Nebraska","Central"
 "2126","WHICH TIME ZONE?","600","Santa Fe, New Mexico","Mountain"
 "2126","WHICH TIME ZONE?","800","Reno, Nevada","Pacific"
-"2126","WHICH TIME ZONE?","1000","Akron, Ohio","Eastern Time"
+2126,"WHICH TIME ZONE?",1000,"Akron, Ohio",Eastern
 "2190","THE PLANETS","100","In a 1908 book Percival Lowell proposed that its surface markings were irrigation canals","Mars"
 "2190","THE PLANETS","200","In 1975 the Soviet spacecraft Venera 9 provided the first photo from its surface","Venus"
 "2190","THE PLANETS","300","On December 7, 1995, a probe from the Galileo spacecraft plunged into this planet's atmosphere","Jupiter"
@@ -72,7 +72,7 @@
 "3738","THE PLANETS","200","Though not the closest to the Sun, it has the highest surface temperature","Venus"
 "3738","THE PLANETS","400","Around 1675 Gian Domenico Cassini observed a dark gap in this planet's main rings","Saturn"
 "3738","THE PLANETS","600","Its volcano Olympus Mons is the highest mountain in the solar system","Mars"
-"3738","THE PLANETS","800","It has the most atmospheric ozone of the 8","the Earth"
+3738,"THE PLANETS",800,"It has the most atmospheric ozone of the 8",Earth
 "3738","THE PLANETS","1000","Of the 4 giant planets, it's the farthest from the Sun","Neptune"
 "3831","THE PLANETS","200","It's 11 times wider than earth at the Equator, but shorter than that through the poles","Jupiter"
 "3831","THE PLANETS","400","In 1610 he observed Saturn with a telescope, the first person to do so","Galileo"

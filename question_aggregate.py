@@ -19,7 +19,7 @@ for csv_file_name in csv_list:
             else:
                 clues[row[0]] += 1
             if row[0] + row[3] not in category_answer_set:
-                category_answer_set.add(row[0] + row[3])
+                category_answer_set.add(row[0] + row[3].lower())
                 if row[0] not in categories:
                     categories[row[0]] = 1
                 else:
